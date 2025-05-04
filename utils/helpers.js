@@ -103,7 +103,7 @@ export const formatPlayerStats = (player) => {
   return `
 *${player.name.toUpperCase()}*
 ${player.fullName}, ${player.age} anos
-🇧🇷 ${player.nationality}
+${player.nationality}
 
 📊 *ESTATÍSTICAS:*
 🔹 Rating: ${player.stats.rating} (últimos 3 meses)
